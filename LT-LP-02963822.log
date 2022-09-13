@@ -1,0 +1,104 @@
+{"level":"info","time":"2022-09-13T22:13:00.459+0530","caller":"cobra/command.go:854","msg":"LambdaTest Tunnel version: 3.1.24"}
+{"level":"debug","time":"2022-09-13T22:13:00.459+0530","caller":"cmd/lt.go:205","msg":"Starting pipeline....."}
+{"level":"debug","time":"2022-09-13T22:13:00.459+0530","caller":"cmd/lt.go:205","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2022-09-13T22:13:00.459+0530","caller":"cmd/lt.go:205","msg":"Fetching config"}
+{"level":"debug","time":"2022-09-13T22:13:00.467+0530","caller":"runtime/asm_amd64.s:1371","msg":"Starting tunnel With flags: --user mayankmaurya --key ***** --controller npm --infoAPIPort 63822 --tunnelName LT-LP-02963822 --logFile LT-LP-02963822.log --port 63823"}
+{"level":"debug","time":"2022-09-13T22:13:01.163+0530","caller":"cmd/lt.go:205","msg":"Remote config fetched"}
+{"level":"debug","time":"2022-09-13T22:13:01.339+0530","caller":"core/lifecycle.go:152","msg":"Starting API server"}
+{"level":"debug","time":"2022-09-13T22:13:01.339+0530","caller":"core/lifecycle.go:138","msg":"Starting sink proxy"}
+{"level":"debug","time":"2022-09-13T22:13:01.339+0530","caller":"apiserver/setup.go:173","msg":"Starting API server for tunnel info on port: 63822"}
+{"level":"debug","time":"2022-09-13T22:13:01.339+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying on port 22"}
+{"level":"debug","time":"2022-09-13T22:13:01.339+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2022-09-13T22:13:01.339+0530","caller":"runtime/asm_amd64.s:1371","msg":"Trying on port 443"}
+{"level":"info","time":"2022-09-13T22:13:01.398+0530","caller":"custom/setup.go:740","msg":"Tunnel binary started on port :63823"}
+{"level":"debug","time":"2022-09-13T22:13:01.471+0530","caller":"runtime/asm_amd64.s:1371","msg":"WSS connection was successful"}
+{"level":"debug","time":"2022-09-13T22:13:02.260+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2022-09-13T22:13:02.270+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2022-09-13T22:13:02.338+0530","caller":"runtime/asm_amd64.s:1371","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2022-09-13T22:13:02.339+0530","caller":"core/lifecycle.go:115","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2022-09-13T22:13:02.339+0530","caller":"cmd/lt.go:205","msg":"Launching tunnel"}
+{"level":"debug","time":"2022-09-13T22:13:02.339+0530","caller":"core/lifecycle.go:233","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2022-09-13T22:13:03.623+0530","caller":"core/lifecycle.go:233","msg":"Control ws channel opened"}
+{"level":"debug","time":"2022-09-13T22:13:03.623+0530","caller":"runtime/asm_amd64.s:1371","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2022-09-13T22:13:05.002+0530","caller":"runtime/asm_amd64.s:1371","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2022-09-13T22:13:05.002+0530","caller":"runtime/asm_amd64.s:1371","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2022-09-13T22:13:05.002+0530","caller":"runtime/asm_amd64.s:1371","msg":"controller bus registered"}
+{"level":"debug","time":"2022-09-13T22:13:05.002+0530","caller":"core/lifecycle.go:283","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2022-09-13T22:13:05.891+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 26685"}
+{"level":"debug","time":"2022-09-13T22:13:05.899+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 16700"}
+{"level":"info","time":"2022-09-13T22:13:05.899+0530","caller":"runtime/asm_amd64.s:1371","msg":"You can start testing now"}
+{"level":"info","time":"2022-09-13T22:13:05.899+0530","caller":"runtime/asm_amd64.s:1371","msg":"Tunnel ID: 2129616"}
+{"level":"debug","time":"2022-09-13T22:13:05.899+0530","caller":"runtime/asm_amd64.s:1371","msg":"Remote Listener Started on Port 4608"}
+{"level":"debug","time":"2022-09-13T22:13:05.931+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 29117"}
+{"level":"debug","time":"2022-09-13T22:13:06.020+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 9536"}
+{"level":"debug","time":"2022-09-13T22:13:06.037+0530","caller":"runtime/asm_amd64.s:1371","msg":"Successfully started sshd listener on port: 2989"}
+{"level":"debug","time":"2022-09-13T22:13:16.068+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://accounts.google.com:443"}
+{"level":"debug","time":"2022-09-13T22:13:17.803+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2022-09-13T22:13:17.804+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2022-09-13T22:13:18.420+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://accounts.google.com:443"}
+{"level":"debug","time":"2022-09-13T22:13:20.774+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2022-09-13T22:13:20.782+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2022-09-13T22:13:20.785+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2022-09-13T22:13:20.799+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://the-internet.herokuapp.com:443"}
+{"level":"debug","time":"2022-09-13T22:13:21.983+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:22.005+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:23.520+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:23.521+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:30.956+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:30.959+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:32.209+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:32.209+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:32.212+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:32.214+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:32.217+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:32.217+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:32.508+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:32.508+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:33.792+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:33.793+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:33.799+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:33.800+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:33.802+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:33.803+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:34.419+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:34.420+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:34.430+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:34.431+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:34.437+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:34.437+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:35.981+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2022-09-13T22:13:35.988+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:36.001+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"warn","time":"2022-09-13T22:13:36.001+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:36.659+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:36.660+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:37.501+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:37.501+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:38.369+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:38.369+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:38.375+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:38.375+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:38.376+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:38.377+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:38.382+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:38.383+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:38.404+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:38.405+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:39.028+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:39.029+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:40.020+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2022-09-13T22:13:40.020+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"debug","time":"2022-09-13T22:13:40.020+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:40.020+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"warn","time":"2022-09-13T22:13:40.020+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"warn","time":"2022-09-13T22:13:40.020+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:40.027+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:40.028+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:40.030+0530","caller":"runtime/asm_amd64.s:1371","msg":"handling connect request for URL https://298279967.log.optimizely.com:443"}
+{"level":"warn","time":"2022-09-13T22:13:40.031+0530","caller":"custom/setup.go:660","msg":"error while tunneling https request for host 298279967.log.optimizely.com:443, dial tcp: lookup 298279967.log.optimizely.com: no such host"}
+{"level":"debug","time":"2022-09-13T22:13:45.574+0530","caller":"cmd/lt.go:205","msg":"Context cancelled"}
+{"level":"debug","time":"2022-09-13T22:13:45.574+0530","caller":"runtime/asm_amd64.s:1371","msg":"Shutting down the server"}
+{"level":"debug","time":"2022-09-13T22:13:45.574+0530","caller":"custom/setup.go:740","msg":"Exiting the sink proxy"}
+{"level":"info","time":"2022-09-13T22:13:45.574+0530","caller":"cmd/lt.go:205","msg":"Stopping tunnel"}
+{"level":"debug","time":"2022-09-13T22:13:45.575+0530","caller":"runtime/asm_amd64.s:1371","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2022-09-13T22:13:45.575+0530","caller":"runtime/asm_amd64.s:1371","msg":"Write loop ended for control channel"}
